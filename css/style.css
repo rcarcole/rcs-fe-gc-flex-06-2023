@@ -101,12 +101,12 @@ a:hover {
     text-decoration: underline;
 }
 
-.planta{
+.planta {
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC');
     background-repeat: no-repeat;
 }
 
-input{
+input {
     border: 1px solid black;
     border-radius: 30px;
     padding: 8px;
@@ -114,7 +114,7 @@ input{
     height: 3vh;
 }
 
-span{
+span {
     margin-top: 10px;
     color: #70757a;
     font-size: 15px;
@@ -124,17 +124,23 @@ span{
     margin: 10px;
 }
 
-.lupa{
+.lupa {
     position: absolute;
     margin-left: -23vw;
 }
 
-.micro{
+.micro {
     position: absolute;
     margin-left: -3vw;
 }
 
-.camera{
+.camera {
     position: absolute;
     margin-left: -2vw;
+}
+
+.compartir{
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 15vh;
 }
