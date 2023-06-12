@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/imgCactus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    border: 1px solid black;
+    width: 80vw;
+    height: 100vh;
+    background-color: rgb(58, 248, 61);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav {
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+.nav-izq {
+    text-align: start;
+}
+
+.nav-der {
+    text-align: end;
+}
+
+#main {
+    display: flex;
+    height: 65vh;
+}
+
+.main-centrado {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    
+}
+
+#iconos {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 90%;
+}
+
+#noticias {
+    width: 15vh;
+}
+
+
+
+#footer {
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+}
+
+.footer-izq {
+    text-align: start;
+    align-content: center;
+}
+
+.footer-der {
+    text-align: end;
+    align-content: center;
+}
+
+.items {
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+}
+
+.itemsEncimaNoticias{
+    list-style: none;
+    display: flex;
+}
+.itemsEncimaNoticias2{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.items .item {
+    margin-right: 2vw; 
+    cursor: pointer;
+}
+
+.logo {
+    width: 220px;
+    margin: -55px;
+    margin-right: 50px
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    width: 25vw;
+    height: 3vh;
+}
+
+.itemSpan {
+    margin-left: -7vw;
+    margin-top: 1vh;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+section img{
+    width: 12vw;
+    margin-left: 1vw;
+}
+
+h2{
+    position: absolute;
+    background-color: grey;
+    margin-left: 1vw;
+    margin-top: inherit;
+}
