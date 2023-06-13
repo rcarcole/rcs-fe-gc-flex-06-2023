@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: fit-content;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: auto;
+}
+
+.items{
+    list-style: none;
+    width: 50vw;
+    display: flex;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.items2 {
+    display: flex;
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.items .item {
+    margin-right: 2vw; 
+    cursor: pointer;
+}
+
+.items2 .item2 {
+    margin-right: 2vw; 
+    cursor: pointer;
+}
+
+.izq {
+    margin-top: 3vh;
+    display: flex;
+    text-align: start;
+}
+
+.der {
+    margin-top: 3vh;
+    display: flex;
+    text-align: end;
+}
+
+.titulo {
+    position: absolute;
+    margin-top: 7.5vh;
+    font-size: 1.4vw;
+    line-height: 1.25vw;
+    vertical-align: bottom;
+    color: #e5e5e5;
+    cursor: pointer;
+}
+
+.titulo2 {
+    position: absolute;
+    margin-top: 38vh;
+    font-size: 1.4vw;
+    line-height: 1.25vw;
+    vertical-align: bottom;
+    color: #e5e5e5;
+    cursor: pointer;
+}
+
+.titulo3 {
+    position: absolute;
+    margin-top: 68vh;
+    font-size: 1.4vw;
+    line-height: 1.25vw;
+    vertical-align: bottom;
+    color: #e5e5e5;
+    cursor: pointer;
+}
