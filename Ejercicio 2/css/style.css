@@ -68,7 +68,7 @@ a:hover {
 
 #footer {
     display: flex;
-    height: 5vh;
+    height: 6vh;
     justify-content: space-between;
     background-color: #5a421c;
 }
